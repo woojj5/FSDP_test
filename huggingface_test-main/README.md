@@ -4,7 +4,7 @@
 
 ## 환경 요구사항
 
-- **GPU**: 4개 (현재 설정 기준, `accelerate_config.yaml`의 `num_processes: 4`)
+- **GPU**: NVIDIA GeForce RTX 4090 4개 (현재 설정 기준, `accelerate_config.yaml`의 `num_processes: 4`)
 - **라이브러리 버전**:
   - `transformers==4.56.2`
   - `accelerate==1.10.1`
